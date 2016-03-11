@@ -1,0 +1,182 @@
+html {
+	overflow-y:scroll; /*Courtesy of James*/ /*fixes issue of accordion shifting page, but scroll bar always present*/
+}
+
+body {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	background-color:#EFEFEF;
+	
+}
+
+.clear {
+	clear: both;
+	/*display: block;
+	overflow: hidden;
+	visibility: hidden;*/
+}
+
+.page {
+	width: 1120px;
+	margin: 50px auto; 
+	background-color:white;
+	border-radius:4px;
+	padding: 5px;	
+	box-shadow: 0px 0px 10px #888888;
+}
+
+h1 {
+	color: #7E9699;
+	margin: 15px auto; 
+	width: 500px;  	
+	font-weight: bold;	
+}
+
+h2 {
+	color: #69686B;
+	margin: 0 auto;
+	width: 180px;
+}
+
+#about {
+
+	margin: 10px;
+	margin-bottom: 30px;
+	padding: 10px 0; 
+	
+}
+
+
+
+p { 
+	color: #69686B;
+	margin: 10px;
+	font-size: 1.1em;
+	line-height: 1.6em;
+	text-align: justify; 
+}
+
+
+.note {
+	color: #7E9699;
+	margin: 10px;
+	font-size: 1em;
+	line-height: 1.4em;
+	text-align: justify;
+}
+
+#map {
+	height: 600px;
+	width: 1100px;
+	margin: 10px;
+	border-radius:4px;	
+	box-shadow: 0px 0px 10px #888888;
+}
+
+#maxButton, #minButton {
+	margin: 10px 5px 0 20px;
+	font-weight: bold;
+	
+	color: #7E9699;
+}
+
+#maxButton:hover {
+color: #3E454C;
+}
+
+#minButton:hover {
+color: #590202;
+}
+
+#vcr-controls {
+	margin: 15px 5px 0 5px;
+	padding: 3px 25px 0px;
+}
+
+.vcr {
+	float: left;
+	margin-right: 3px;
+	width: 48px;
+	height: 32px;
+}
+
+.vcr:hover {
+	opacity: .6;
+}
+
+#minYear {
+float: left;
+color: #69686B;
+font-weight: bold;
+}
+
+#maxYear {
+float: right;
+color: #69686B;
+font-weight: bold; 
+}
+
+#temporalSlider {
+	margin: 10px;
+	margin-top: 45px;
+	margin-left: 20px;
+	width: 96%;
+}
+
+#legendYear2 {
+font-size: 1.3em;
+float: left;
+margin-left: 280px;
+font-weight: bold; 
+color: #7E9699;
+}
+
+#sliderVCR {
+width: 810px;
+float: left;
+margin: 10px;
+
+}
+
+#legend {
+	height: 250px;
+	width: 250px;
+	background-color: white;
+	margin: 10px;
+	margin-top: -20px;
+	/*border-radius:4px;*/
+	padding: 5px 10px;
+	text-align: right;
+	color: #7E9699;
+	float: left;
+}
+
+#legendTitle h3{
+	font-size: 1.3em;
+	margin-bottom: -10px;
+	
+}
+#legendYear h3 {
+	font-size: 1.5em;
+}
+#legendData {
+	margin-top: -105px;
+	font-size: 1.1em;
+}
+#legendData div{
+	margin: 5px 0 0 0;
+}
+#legendSymbols svg {
+	margin: -60px -80px 0 0px;
+}
+
+#name {
+	margin: 0 auto; 
+	width: 100px;
+	font-size: 1.2em; 
+	width: 120px;
+}
+
+#name span {
+	color: #7E9699;
+}
+
